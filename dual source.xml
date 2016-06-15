@@ -1,0 +1,746 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:/Users/John/Dropbox/GitHub/Dual-Source-Charger/dual source.sch</source>
+    <date>23/03/2016 7:21:24 PM</date>
+    <tool>Eeschema 4.0.0-rc1-stable</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>dual source.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/Power/" tstamps="/56E80626/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>power.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="D1">
+      <value>SS14</value>
+      <footprint>freetronics_footprints:DIODE_SMA</footprint>
+      <libsource lib="freetronics_schematic" part="DIODE_SCHOTTKY"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56E7FDF8</tstamp>
+    </comp>
+    <comp ref="P2">
+      <value>CHRG</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x02</footprint>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56E7FF1D</tstamp>
+    </comp>
+    <comp ref="P3">
+      <value>USB_5PIN_SHELL</value>
+      <footprint>freetronics_footprints:USB-MICRO-5pin_PTHMOUNT</footprint>
+      <libsource lib="freetronics_schematic" part="USB_5PIN_SHELL"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56E7FF1B</tstamp>
+    </comp>
+    <comp ref="F1">
+      <value>1A PTC</value>
+      <footprint>freetronics_footprints:1210</footprint>
+      <libsource lib="device" part="FUSE"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56E863EF</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>SS14</value>
+      <footprint>freetronics_footprints:DIODE_SMA</footprint>
+      <libsource lib="freetronics_schematic" part="DIODE_SCHOTTKY"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56E8649A</tstamp>
+    </comp>
+    <comp ref="P1">
+      <value>BATTERY</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x02</footprint>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56E86961</tstamp>
+    </comp>
+    <comp ref="SW1">
+      <value>ON/OFF</value>
+      <footprint>ESPlant:SS12D00</footprint>
+      <libsource lib="device" part="SWITCH_INV"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56E86F1C</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>SPX3819M5-3.3</value>
+      <footprint>freetronics_footprints:SOT23-5</footprint>
+      <libsource lib="regul" part="LD3985M"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56E87AAA</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>100nF</value>
+      <footprint>freetronics_footprints:0603_CAP</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56E87B9E</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>LTC3426</value>
+      <libsource lib="dual source" part="LTC3426"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56EAAA8B</tstamp>
+    </comp>
+    <comp ref="L1">
+      <value>2.2uH</value>
+      <footprint>freetronics_footprints:IND_SRU1038</footprint>
+      <libsource lib="device" part="INDUCTOR"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56EAAE4A</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>SS14</value>
+      <footprint>freetronics_footprints:DIODE_SMA</footprint>
+      <libsource lib="freetronics_schematic" part="DIODE_SCHOTTKY"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56EAB280</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>95.3K</value>
+      <footprint>freetronics_footprints:0603</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56EAB463</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>30.9K</value>
+      <footprint>freetronics_footprints:0603</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56EABF67</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>22uF</value>
+      <footprint>freetronics_footprints:0603_CAP</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56EAC098</tstamp>
+    </comp>
+    <comp ref="P4">
+      <value>ENABLE_5V</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x02</footprint>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56EAC97B</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>10uF</value>
+      <footprint>freetronics_footprints:0603_CAP</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56EACA81</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>1M</value>
+      <footprint>Resistors_ThroughHole:Resistor_Horizontal_RM10mm</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56EAD445</tstamp>
+    </comp>
+    <comp ref="P5">
+      <value>ENABLE_3.3V</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x02</footprint>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56EB0B0B</tstamp>
+    </comp>
+    <comp ref="P6">
+      <value>CONN_01X06</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x06</footprint>
+      <libsource lib="conn" part="CONN_01X06"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56EB1E38</tstamp>
+    </comp>
+    <comp ref="U201">
+      <value>CN3063</value>
+      <footprint>ESPlant:CN3063_SOIC8_EP</footprint>
+      <libsource lib="dual source" part="CN3063"/>
+      <sheetpath names="/Power/" tstamps="/56E80626/"/>
+      <tstamp>563C49C7</tstamp>
+    </comp>
+    <comp ref="R204">
+      <value>7.15K 1%</value>
+      <footprint>freetronics_footprints:0603</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Power/" tstamps="/56E80626/"/>
+      <tstamp>563C4E3C</tstamp>
+    </comp>
+    <comp ref="Q201">
+      <value>FDN340P</value>
+      <footprint>freetronics_footprints:SOT23_FET</footprint>
+      <libsource lib="freetronics_schematic" part="MOSFET_P"/>
+      <sheetpath names="/Power/" tstamps="/56E80626/"/>
+      <tstamp>563C5347</tstamp>
+    </comp>
+    <comp ref="D201">
+      <value>SS14</value>
+      <footprint>freetronics_footprints:DIODE_SMA</footprint>
+      <libsource lib="freetronics_schematic" part="DIODE_SCHOTTKY"/>
+      <sheetpath names="/Power/" tstamps="/56E80626/"/>
+      <tstamp>563C54FD</tstamp>
+    </comp>
+    <comp ref="R201">
+      <value>1K</value>
+      <footprint>freetronics_footprints:0603</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Power/" tstamps="/56E80626/"/>
+      <tstamp>563C5AF3</tstamp>
+    </comp>
+    <comp ref="LED202">
+      <value>LED_RED</value>
+      <footprint>freetronics_footprints:0805</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/Power/" tstamps="/56E80626/"/>
+      <tstamp>563C5FC4</tstamp>
+    </comp>
+    <comp ref="LED201">
+      <value>LED_GREEN</value>
+      <footprint>freetronics_footprints:0805</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/Power/" tstamps="/56E80626/"/>
+      <tstamp>563FF8B1</tstamp>
+    </comp>
+    <comp ref="R202">
+      <value>1K</value>
+      <footprint>freetronics_footprints:0603</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Power/" tstamps="/56E80626/"/>
+      <tstamp>563FF8B7</tstamp>
+    </comp>
+    <comp ref="Q202">
+      <value>FDN340P</value>
+      <footprint>freetronics_footprints:SOT23_FET</footprint>
+      <libsource lib="freetronics_schematic" part="MOSFET_P"/>
+      <sheetpath names="/Power/" tstamps="/56E80626/"/>
+      <tstamp>563FE525</tstamp>
+    </comp>
+    <comp ref="Q203">
+      <value>FDN340P</value>
+      <footprint>freetronics_footprints:SOT23_FET</footprint>
+      <libsource lib="freetronics_schematic" part="MOSFET_P"/>
+      <sheetpath names="/Power/" tstamps="/56E80626/"/>
+      <tstamp>5641832A</tstamp>
+    </comp>
+    <comp ref="U202">
+      <value>MCP6002</value>
+      <footprint>freetronics_footprints:SO08_4mm</footprint>
+      <libsource lib="dual source-rescue" part="LM193-RESCUE-dual_source"/>
+      <sheetpath names="/Power/" tstamps="/56E80626/"/>
+      <tstamp>5642B796</tstamp>
+    </comp>
+    <comp ref="C203">
+      <value>100uF 16V X5R</value>
+      <footprint>freetronics_footprints:1210_CAP</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/Power/" tstamps="/56E80626/"/>
+      <tstamp>5642CCBE</tstamp>
+    </comp>
+    <comp ref="C202">
+      <value>100nF 16V</value>
+      <footprint>freetronics_footprints:0603_CAP</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/Power/" tstamps="/56E80626/"/>
+      <tstamp>5642D8F0</tstamp>
+    </comp>
+    <comp ref="C201">
+      <value>10uF 16V</value>
+      <footprint>freetronics_footprints:1210_CAP</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/Power/" tstamps="/56E80626/"/>
+      <tstamp>5642CCB8</tstamp>
+    </comp>
+    <comp ref="R205">
+      <value>7.15K 1%</value>
+      <footprint>freetronics_footprints:0603</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Power/" tstamps="/56E80626/"/>
+      <tstamp>566F70E7</tstamp>
+    </comp>
+    <comp ref="TH201">
+      <value>10K NTC</value>
+      <footprint>freetronics_footprints:0603</footprint>
+      <datasheet>http://www.murata.com/products/catalog/pdf/r44e.pdf</datasheet>
+      <fields>
+        <field name="MPN">NCP18XH103F03RB</field>
+      </fields>
+      <libsource lib="device" part="THERMISTOR"/>
+      <sheetpath names="/Power/" tstamps="/56E80626/"/>
+      <tstamp>566F7293</tstamp>
+    </comp>
+    <comp ref="C204">
+      <value>10uF 16V</value>
+      <footprint>freetronics_footprints:1210_CAP</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/Power/" tstamps="/56E80626/"/>
+      <tstamp>566F9EBD</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>100K</value>
+      <footprint>freetronics_footprints:0603</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Power/" tstamps="/56E80626/"/>
+      <tstamp>56EBE55C</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>100K</value>
+      <footprint>freetronics_footprints:0603</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Power/" tstamps="/56E80626/"/>
+      <tstamp>56EBECD6</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="dual source-rescue" part="LM193-RESCUE-dual_source">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LM193-RESCUE-dual_source</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="openCol"/>
+        <pin num="2" name="_" type="input"/>
+        <pin num="3" name="+" type="input"/>
+        <pin num="4" name="V-" type="power_in"/>
+        <pin num="5" name="+" type="input"/>
+        <pin num="6" name="_" type="input"/>
+        <pin num="7" name="~" type="openCol"/>
+        <pin num="8" name="V+" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="C">
+      <description>Unpolarized capacitor</description>
+      <footprints>
+        <fp>C?</fp>
+        <fp>C_????_*</fp>
+        <fp>C_????</fp>
+        <fp>SMD*_c</fp>
+        <fp>Capacitor*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="FUSE">
+      <fields>
+        <field name="Reference">F</field>
+        <field name="Value">FUSE</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="input"/>
+        <pin num="2" name="~" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="INDUCTOR">
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">INDUCTOR</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="LED">
+      <footprints>
+        <fp>LED-3MM</fp>
+        <fp>LED-5MM</fp>
+        <fp>LED-10MM</fp>
+        <fp>LED-0603</fp>
+        <fp>LED-0805</fp>
+        <fp>LED-1206</fp>
+        <fp>LEDV</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="R">
+      <description>Resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+        <fp>Resistor_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="SWITCH_INV">
+      <description>inverseur</description>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SWITCH_INV</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="THERMISTOR">
+      <description>Resistance</description>
+      <footprints>
+        <fp>R?</fp>
+        <fp>SM0603</fp>
+        <fp>SM0805</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">TH</field>
+        <field name="Value">THERMISTOR</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X02">
+      <footprints>
+        <fp>Pin_Header_Straight_1X02</fp>
+        <fp>Pin_Header_Angled_1X02</fp>
+        <fp>Socket_Strip_Straight_1X02</fp>
+        <fp>Socket_Strip_Angled_1X02</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X02</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X06">
+      <footprints>
+        <fp>Pin_Header_Straight_1X06</fp>
+        <fp>Pin_Header_Angled_1X06</fp>
+        <fp>Socket_Strip_Straight_1X06</fp>
+        <fp>Socket_Strip_Angled_1X06</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X06</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+        <pin num="5" name="P5" type="passive"/>
+        <pin num="6" name="P6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="regul" part="LD3985M">
+      <description>150 mA Low Dropout Voltage Regulator</description>
+      <docs>http://www.st.com/internet/analog/product/69230.jsp</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LD3985M</field>
+        <field name="Footprint">SOT-23-5</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VIN" type="input"/>
+        <pin num="2" name="GND" type="input"/>
+        <pin num="3" name="INH" type="input"/>
+        <pin num="4" name="BYP" type="input"/>
+        <pin num="5" name="VOUT" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="freetronics_schematic" part="DIODE_SCHOTTKY">
+      <footprints>
+        <fp>DIODE_*</fp>
+        <fp>*_DIODE</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">DIODE_SCHOTTKY</field>
+      </fields>
+      <pins>
+        <pin num="A" name="A" type="passive"/>
+        <pin num="K" name="K" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="freetronics_schematic" part="MOSFET_P">
+      <footprints>
+        <fp>*_FET</fp>
+        <fp>FET_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">MOSFET_P</field>
+      </fields>
+      <pins>
+        <pin num="D" name="D" type="passive"/>
+        <pin num="G" name="G" type="input"/>
+        <pin num="S" name="S" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="freetronics_schematic" part="USB_5PIN_SHELL">
+      <footprints>
+        <fp>USB*5PIN*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">USB_5PIN_SHELL</field>
+        <field name="Footprint">FT:USB-MICRO_TH_4PEGS</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VCC" type="input"/>
+        <pin num="2" name="D-" type="input"/>
+        <pin num="3" name="D+" type="input"/>
+        <pin num="4" name="ID" type="passive"/>
+        <pin num="5" name="GND" type="input"/>
+        <pin num="SHLD" name="SHLD" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="dual source" part="CN3063">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">CN3063</field>
+      </fields>
+      <pins>
+        <pin num="1" name="TEMP" type="input"/>
+        <pin num="2" name="I(R)" type="output"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="VCC" type="power_in"/>
+        <pin num="5" name="BAT" type="power_out"/>
+        <pin num="6" name="~DONE" type="openCol"/>
+        <pin num="7" name="~CHRG" type="openCol"/>
+        <pin num="8" name="FB" type="input"/>
+        <pin num="PAD" name="PAD" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="dual source" part="LTC3426">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LTC3426</field>
+      </fields>
+      <pins>
+        <pin num="1" name="SW" type="input"/>
+        <pin num="2" name="GND" type="input"/>
+        <pin num="3" name="FB" type="input"/>
+        <pin num="4" name="SHDN" type="input"/>
+        <pin num="5" name="Vout" type="input"/>
+        <pin num="6" name="Vin" type="input"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="dual source-rescue">
+      <uri>C:\Users\John\Dropbox\GitHub\Dual-Source-Charger\dual source-rescue.lib</uri>
+    </library>
+    <library logical="device">
+      <uri>C:\Program Files\KiCad\share\kicad\library\device.lib</uri>
+    </library>
+    <library logical="conn">
+      <uri>C:\Program Files\KiCad\share\kicad\library\conn.lib</uri>
+    </library>
+    <library logical="regul">
+      <uri>C:\Program Files\KiCad\share\kicad\library\regul.lib</uri>
+    </library>
+    <library logical="freetronics_schematic">
+      <uri>C:\Users\John\Dropbox\GitHub\Dual-Source-Charger\freetronics_kicad_library\freetronics_schematic.lib</uri>
+    </library>
+    <library logical="dual source">
+      <uri>C:\Users\John\Dropbox\GitHub\Dual-Source-Charger\dual source.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/VOUT">
+      <node ref="SW1" pin="1"/>
+      <node ref="P5" pin="1"/>
+      <node ref="P4" pin="1"/>
+    </net>
+    <net code="2" name="Net-(R1-Pad1)">
+      <node ref="R1" pin="1"/>
+      <node ref="U2" pin="4"/>
+    </net>
+    <net code="3" name="Net-(C1-Pad1)">
+      <node ref="L1" pin="1"/>
+      <node ref="U2" pin="6"/>
+      <node ref="R1" pin="2"/>
+      <node ref="C1" pin="1"/>
+      <node ref="P4" pin="2"/>
+    </net>
+    <net code="4" name="Net-(D3-PadA)">
+      <node ref="U2" pin="1"/>
+      <node ref="L1" pin="2"/>
+      <node ref="D3" pin="A"/>
+    </net>
+    <net code="5" name="+5V">
+      <node ref="R2" pin="1"/>
+      <node ref="U2" pin="5"/>
+      <node ref="P6" pin="1"/>
+      <node ref="C3" pin="1"/>
+      <node ref="D3" pin="K"/>
+    </net>
+    <net code="6" name="Net-(R2-Pad2)">
+      <node ref="R2" pin="2"/>
+      <node ref="R3" pin="1"/>
+      <node ref="U2" pin="3"/>
+    </net>
+    <net code="7" name="+3V3">
+      <node ref="U1" pin="5"/>
+      <node ref="P6" pin="6"/>
+    </net>
+    <net code="8" name="GND">
+      <node ref="U2" pin="2"/>
+      <node ref="R4" pin="2"/>
+      <node ref="U201" pin="PAD"/>
+      <node ref="C2" pin="2"/>
+      <node ref="TH201" pin="2"/>
+      <node ref="C1" pin="2"/>
+      <node ref="P1" pin="2"/>
+      <node ref="U1" pin="2"/>
+      <node ref="C201" pin="2"/>
+      <node ref="R204" pin="2"/>
+      <node ref="C202" pin="2"/>
+      <node ref="U201" pin="3"/>
+      <node ref="U202" pin="4"/>
+      <node ref="C203" pin="1"/>
+      <node ref="C204" pin="2"/>
+      <node ref="R201" pin="2"/>
+      <node ref="D2" pin="A"/>
+      <node ref="P3" pin="SHLD"/>
+      <node ref="P3" pin="5"/>
+      <node ref="P6" pin="2"/>
+      <node ref="P6" pin="5"/>
+      <node ref="R3" pin="2"/>
+      <node ref="C3" pin="2"/>
+      <node ref="D1" pin="A"/>
+      <node ref="P2" pin="2"/>
+    </net>
+    <net code="9" name="/Power/USB_IN">
+      <node ref="R201" pin="1"/>
+      <node ref="Q201" pin="G"/>
+      <node ref="D201" pin="A"/>
+      <node ref="P3" pin="1"/>
+    </net>
+    <net code="10" name="Net-(P5-Pad2)">
+      <node ref="U1" pin="3"/>
+      <node ref="P5" pin="2"/>
+      <node ref="U1" pin="1"/>
+    </net>
+    <net code="11" name="/USB_D-">
+      <node ref="P6" pin="4"/>
+      <node ref="P3" pin="2"/>
+    </net>
+    <net code="12" name="/USB_D+">
+      <node ref="P6" pin="3"/>
+      <node ref="P3" pin="3"/>
+    </net>
+    <net code="13" name="Net-(P3-Pad4)">
+      <node ref="P3" pin="4"/>
+    </net>
+    <net code="14" name="/BAT+">
+      <node ref="P1" pin="1"/>
+      <node ref="F1" pin="1"/>
+    </net>
+    <net code="15" name="/Power/SOLAR_IN">
+      <node ref="P2" pin="1"/>
+      <node ref="Q201" pin="D"/>
+      <node ref="D1" pin="K"/>
+    </net>
+    <net code="16" name="Net-(C2-Pad1)">
+      <node ref="U1" pin="4"/>
+      <node ref="C2" pin="1"/>
+    </net>
+    <net code="17" name="/Power/VBAT">
+      <node ref="U201" pin="8"/>
+      <node ref="C204" pin="1"/>
+      <node ref="F1" pin="2"/>
+      <node ref="D2" pin="K"/>
+      <node ref="U201" pin="5"/>
+      <node ref="Q203" pin="D"/>
+      <node ref="U202" pin="3"/>
+      <node ref="U202" pin="6"/>
+    </net>
+    <net code="18" name="/Power/VOUT">
+      <node ref="Q202" pin="S"/>
+      <node ref="Q203" pin="S"/>
+      <node ref="C202" pin="1"/>
+      <node ref="C203" pin="2"/>
+      <node ref="SW1" pin="2"/>
+      <node ref="U202" pin="8"/>
+      <node ref="R5" pin="1"/>
+    </net>
+    <net code="19" name="Net-(SW1-Pad3)">
+      <node ref="SW1" pin="3"/>
+    </net>
+    <net code="20" name="/Power/VIN">
+      <node ref="Q201" pin="S"/>
+      <node ref="C201" pin="1"/>
+      <node ref="D201" pin="K"/>
+      <node ref="R202" pin="1"/>
+      <node ref="R205" pin="1"/>
+      <node ref="U201" pin="4"/>
+      <node ref="U202" pin="2"/>
+      <node ref="U202" pin="5"/>
+      <node ref="Q202" pin="D"/>
+    </net>
+    <net code="21" name="Net-(LED201-Pad2)">
+      <node ref="LED201" pin="2"/>
+      <node ref="R202" pin="2"/>
+      <node ref="LED202" pin="2"/>
+    </net>
+    <net code="22" name="/Power/~DONE">
+      <node ref="LED201" pin="1"/>
+      <node ref="U201" pin="6"/>
+    </net>
+    <net code="23" name="/Power/~CHRG">
+      <node ref="U201" pin="7"/>
+      <node ref="LED202" pin="1"/>
+    </net>
+    <net code="24" name="/Power/GBAT">
+      <node ref="R5" pin="2"/>
+      <node ref="Q203" pin="G"/>
+      <node ref="U202" pin="7"/>
+    </net>
+    <net code="25" name="Net-(R205-Pad2)">
+      <node ref="U201" pin="1"/>
+      <node ref="TH201" pin="1"/>
+      <node ref="R205" pin="2"/>
+    </net>
+    <net code="26" name="Net-(R204-Pad1)">
+      <node ref="R204" pin="1"/>
+      <node ref="U201" pin="2"/>
+    </net>
+    <net code="27" name="/Power/GIN">
+      <node ref="Q202" pin="G"/>
+      <node ref="R4" pin="1"/>
+      <node ref="U202" pin="1"/>
+    </net>
+  </nets>
+</export>
